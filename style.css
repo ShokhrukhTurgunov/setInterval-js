@@ -49,7 +49,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(137, 43, 226, 0.493);
+  background-color: rgba(137, 43, 226, 0.897);
   transition: all .5s ease;
 }
 
