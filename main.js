@@ -1,7 +1,5 @@
 const btn1 = document.querySelector('.right');
 const btn2 = document.querySelector('.left');
-console.log(btn2);
-
 
 function btnAnimation1 () {
   const box = document.querySelector('.mini-box');
@@ -18,7 +16,6 @@ function btnAnimation1 () {
     }
   }
 };
-
 
 function btnAnimation2 () {
 
