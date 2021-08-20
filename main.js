@@ -26,3 +26,16 @@ function btnAnimation2 () {
 
 btn1.addEventListener("click", btnAnimation1);
 btn2.addEventListener("click", btnAnimation2);
+
+
+// LOADER CODES
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout( () => {
+    const loader = document.querySelector(".loader");
+    loader.style.opacity = "0";
+    setTimeout( () => {
+      loader.style.display = "none";
+    },500);
+  }, 2000);
+});
